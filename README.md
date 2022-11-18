@@ -1,4 +1,5 @@
 Description: neighborhoodOutput(number)
+
 Test: “If the number one is input, it will return “Beep!”
 Code: neighborhoodOutput(1)
 Expected output: “Beep!”
@@ -16,9 +17,9 @@ Test: “If the number two is input, it will return “Boop!”
 Code: neighborhoodOutput(7)
 Expected output: 7
  
-Test: “If a number contains multiple digits that includes a 1, it will return “Beep!”
+Test: “If a number contains multiple digits that includes a 1, and not 2 or 3, it will return “Beep!”
 Code: neighborhoodOutput(18)
 Expected output: “Beep!”
 Test: “The function will return all numbers from 0 until the inputted number”
-Code: neighborhoodOuput(5)
-Expected output: 1, 2, 3, 4, 5
+Code: neighborhoodOuput(1027)
+Expected output: "Beep!"
