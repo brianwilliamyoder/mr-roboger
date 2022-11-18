@@ -1,6 +1,6 @@
-function neighborhoodOutput(input) {
+function neighborhoodOutput(numberString) {
   //parsedNumber = parseInt(number);
-  parNumberArray = input.split("");
+  parNumberArray = numberString.split("");
   outputNumbers = [];
   for (let i = 0; i < parNumberArray.length; i += 1) {
     if (parNumberArray.includes("3")) {

@@ -23,3 +23,11 @@ Expected output: “Beep!”
 Test: “The function will return all numbers from 0 until the inputted number”
 Code: neighborhoodOuput(1027)
 Expected output: "Beep!"
+
+Test: “The program will output every number from 0 until the inputted number”
+Code: neighbordhoodOutput(5)
+Expected output: 1 2 3 4 5 
+ 
+Test: “The program will substitute numbers that contain a 1, 2, or 3 with “Beep!”, “Boop!” or “Won’t you be my neighbor?” respectively. 
+Code: neighbordhoodOutput(5)
+Expected output: Beep! Boop! Won’t you be my neighbor? 4 5
