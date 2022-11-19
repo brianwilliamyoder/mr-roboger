@@ -1,7 +1,5 @@
 function neighborhoodOutput(numberString) {
-  //parsedNumber = parseInt(number);
   parNumberArray = numberString.split("");
-  outputNumbers = [];
   for (let i = 0; i < parNumberArray.length; i += 1) {
     if (parNumberArray.includes("3")) {
       return "Won't you be my neighbor?"
@@ -17,3 +15,15 @@ function neighborhoodOutput(numberString) {
     }
   }
 }
+
+// 6th test
+function returnRangeFromInput(numberString) {
+  let parsedNumber = parseInt(numberString);
+  let outputNumber = parsedNumber + 1;
+  let outputArray = [];
+  for (let i = 0; i <= outputNumber + 1; i += 1) {
+    outputNumber = outputNumber - 1;
+    outputArray.push(outputNumber);
+  }
+  outputArray.push(0);
+  return outputArray.reverse();
