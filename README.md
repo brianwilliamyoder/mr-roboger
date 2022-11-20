@@ -30,4 +30,5 @@ Expected output: 0 1 2 3 4 5
  
 7 Test: “The program will substitute numbers that contain a 1, 2, or 3 with “Beep!”, “Boop!” or “Won’t you be my neighbor?” respectively. 
 Code: neighbordhoodOutput(5)
-Expected output: Beep! Boop! Won’t you be my neighbor? 4 5
+Expected output: 0 Beep! Boop! Won’t you be my neighbor? 4 5
+
