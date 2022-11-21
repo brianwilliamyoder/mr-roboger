@@ -49,6 +49,7 @@ function returnRangeFromInput(numberString) {
   outputArray.reverse();
   return outputArray;
 }
+)
 
 
 
