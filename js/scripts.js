@@ -17,13 +17,12 @@ function neighborhoodOutput(numberString) {
   }
 }
 
-//7th test edit
+//7th test
 function returnRangeFromInput(numberString) {
   let parsedNumber = parseInt(numberString);
-  let outputNumber = parsedNumber;
   let outputArray = [];
-  for (let i = 0; i < outputNumber; i += 1) {
-    let loopOutputNumber = outputNumber - i;
+  for (let i = 0; i < parsedNumber; i += 1) {
+    let loopOutputNumber = parsedNumber - i;
     let numStr = loopOutputNumber.toString();
     console.log(loopOutputNumber);
     if (numStr.includes('3')) {
