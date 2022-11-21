@@ -21,12 +21,47 @@ function neighborhoodOutput(numberString) {
 function returnRangeFromInput(numberString) {
   let parsedNumber = parseInt(numberString);
   let outputNumber = parsedNumber;
-  //
   let holdingArray = [];
   let outputArray = [];
-  for (let i = 0; i <= outputNumber + 1; i += 1) {
-    outputNumber = outputNumber - 1;
-    holdingArray.push(outputNumber);
+  for (let i = 0; i < outputNumber; i += 1) {
+    loopOutputNumber = outputNumber - i;
+    holdingArray.push(loopOutputNumber);
+    console.log(holdingArray);
+    if (holdingArray.includes(3)) {
+      outputArray.push("Won't you be my neighbor?");
+      holdingArray = [];
+
+    }
+    else if (holdingArray.includes(2)) {
+      outputArray.push("Boop!");
+      holdingArray = [];
+    }
+    else if (holdingArray.includes(1)) {
+      outputArray.push("Beep!");
+      holdingArray = [];
+    }
+    else {
+      outputArray.push(holdingArray[0])
+      holdingArray = []
+    }
+  }
+  outputArray.push(0);
+  outputArray.reverse();
+  return outputArray;
+}
+
+
+
+
+/*
+function returnRangeFromInput(numberString) {
+  let parsedNumber = parseInt(numberString);
+  let outputNumber = parsedNumber;
+  let holdingArray = [];
+  let outputArray = [];
+  for (let i = 0; i <= outputNumber; i += 1) {
+    loopOutputNumber = outputNumber - i;
+    holdingArray.push(loopOutputNumber);
     if (holdingArray.includes(3)) {
       outputArray.push("Won't you be my neighbor?");
       holdingArray = [];
@@ -49,4 +84,6 @@ function returnRangeFromInput(numberString) {
   outputArray.push(parsedNumber);
   return outputArray;
 }
-
+undefined
+returnRangeFromInput("5")
+(8) [0, 0, 'Beep!', 'Boop!', "Won't you be my neighbor?", 5, 5, 5]
