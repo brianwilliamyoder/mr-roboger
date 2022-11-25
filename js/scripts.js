@@ -1,3 +1,4 @@
+//Business Logic
 function returnRangeFromInput(numberString) {
   let parsedNumber = parseInt(numberString);
   let outputArray = [];
@@ -21,4 +22,22 @@ function returnRangeFromInput(numberString) {
   outputArray.reverse();
   return outputArray;
 }
+
+//UI Logic
+function handleFormSubmission(event) {
+  event.preventDefault();
+  
+
+
+
+  window.addEventListener("submit", handleFormSubmission) {
+    document.createElement("form");
+   
+
+  }
+
+
+
+
+
 
