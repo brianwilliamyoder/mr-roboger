@@ -18,6 +18,7 @@ function returnRangeFromInput(numberString) {
       outputArray.push(loopOutputNumber)
     }
   }
+
   outputArray.reverse();
   return outputArray;
 }
