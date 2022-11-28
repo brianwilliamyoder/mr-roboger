@@ -18,7 +18,6 @@ function returnRangeFromInput(numberString) {
       outputArray.push(loopOutputNumber)
     }
   }
-  outputArray.push(0);
   outputArray.reverse();
   return outputArray;
 }
@@ -26,18 +25,14 @@ function returnRangeFromInput(numberString) {
 //UI Logic
 function handleFormSubmission(event) {
   event.preventDefault();
-  
-
-
-
-  window.addEventListener("submit", handleFormSubmission) {
-    document.createElement("form");
-   
-
+  let numInput = document.querySelector("input#enterNumber").value;
+  let numOutput = returnRangeFromInput(numInput);
+  document.getElementById("outputSpan").innerText = numOutput;
+  document.getElementById("robocounter").reset();
   }
 
 
-
-
-
+window.addEventListener("load", function() {
+  document.querySelector("form#robocounter").addEventListener("submit", handleFormSubmission);
+});
 
