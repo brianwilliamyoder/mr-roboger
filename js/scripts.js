@@ -30,7 +30,7 @@ function handleFormSubmission(event) {
   let numOutput = returnRangeFromInput(numInput);
   document.getElementById("outputSpan").innerText = numOutput;
   document.getElementById("robocounter").reset();
-  }
+}
 
 
 window.addEventListener("load", function() {
