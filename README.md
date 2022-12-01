@@ -32,7 +32,7 @@ Expected output: 0 1 2 3 4 5
 Code: neighbordhoodOutput(5)
 Expected output: 0 Beep! Boop! Won’t you be my neighbor? 4 5
 
-# _Mr. Roboger's Fantastic Number Replacer_
+# _Mr. Roboger's Number Replacer_
 
 #### By _**Brian Yoder**_
 
