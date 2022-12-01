@@ -32,3 +32,34 @@ Expected output: 0 1 2 3 4 5
 Code: neighbordhoodOutput(5)
 Expected output: 0 Beep! Boop! Won’t you be my neighbor? 4 5
 
+# _Mr. Roboger's Fantastic Number Replacer_
+
+#### By _**Brian Yoder**_
+
+#### _A program that takes a number from a user, then outputs every number up until that number replacing any numbers including "1", "2", or "3" with a string._
+
+## Technologies Used
+
+* MacBook Pro (13-inch, M1, 2020), macOS Monterey v. 12.6
+* VSCode v. 1.72.2
+
+
+## Setup/Installation Requirements
+
+* Open Terminal/Command line
+* Navigate to the desktop by typing **cd ~/Desktop** and press Enter on the keybord
+* type **git clone https://github.com/brianwilliamyoder/mr-roboger** into the terminal and press Enter on the keyboard
+* Navigate to the desktop and click on the "mr-roboger" folder.
+* Click on the "index.html" file (this should open the site in your preferred browser)
+* Enjoy the content!
+
+
+## Known Bugs
+
+* No known bugs
+
+## [License](https://mit-license.org/)
+
+_If there are any issues found with the site, feel free to contact me at_ [brianyoder@gmail.com](brianyoder@gmail.com)
+
+Copyright (c) _2022_ _Brian Yoder_
